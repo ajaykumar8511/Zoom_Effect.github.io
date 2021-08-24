@@ -18,7 +18,7 @@
 * Screen GIF
 
 <p align="center">
-    <img src="Zoom Effect.gif" alt="project-GIF" width="500px" >
+    <img src="Zoom Effect.gif" alt="project-GIF" width="800px" >
 </p>
 
 <br/>
