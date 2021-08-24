@@ -18,9 +18,9 @@ body {
 }
 
 .key {
-    color             : blanchedalmond;
+    color             : rgb(230, 230, 230);
     background-color  : rgb(39, 39, 39);
-    padding           : 2px;
+    padding           : 4px;
     margin            : 2px;
     border-radius     : 2px;
     box-shadow        : 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
