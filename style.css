@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    background-image: url("bg-masthead.jpg");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position  : center;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+
+    background-color: #cccccc;
+    text-align      : center;
+    justify-content : center;
+    display         : flex;
+}
+
+.key {
+    color             : blanchedalmond;
+    background-color  : rgb(39, 39, 39);
+    padding           : 2px;
+    margin            : 2px;
+    border-radius     : 2px;
+    box-shadow        : 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    /* -webkit-box-shadow: 1px 2px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow   : 1px 2px 1px 0px rgba(0, 0, 0, 0.75); */
+}
+
+
+.c1 {
+    max-width              : 500px;
+    padding                : 2px;
+    margin                 : 20px;
+    background             : rgba(255, 255, 255, 0.3);
+    box-shadow             : 0 8px 32px 0 rgba(40, 40, 43, 0.37);
+    backdrop-filter        : blur(6.0px);
+    -webkit-backdrop-filter: blur(6.0px);
+    border-radius          : 10px;
+    font-family            : 'Open Sans', sans-serif;
+
+    transition: transform .2s; /* Animation */
+}
+
+.c1:hover {
+    background             : rgba(255, 255, 255, 0.616);
+    transform: scale(1.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
